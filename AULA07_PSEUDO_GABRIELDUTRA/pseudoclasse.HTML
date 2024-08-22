@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-classe</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+        .layout{
+            margin: 50px;
+            text-align: center;
+            background-color: rgb(30 30 30);
+        }
+        .link{
+            color: rgb(10 193 218);
+            text-decoration: none;
+        }
+
+        /* inserindo pseudo-classes */
+
+        .link:visited{
+            color: red;
+        }
+        .link:hover{
+            color: rgb(229 255 0);
+        }
+        .link:active{
+            color: rgb(0, 102, 255);
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div class="layout">
+        <h1>Deseja visitar o site do Google?
+            Clique no link: 
+            <a href="https://www.google.com" class="link" target="_blank">Link para o Google</a>
+        </h1>       
+    </div>
+</body>
+
+</html>

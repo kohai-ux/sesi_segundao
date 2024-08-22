@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-elemento</title>
+    <style>
+        
+        *{
+        
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body{
+            background-color: black;
+            color: white;
+        }
+
+        h1{
+            margin: 50px;
+        }
+
+        /* inserindo pseudoelemento*/
+
+        h1::first-line{
+            color: red;
+            
+        }
+   
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus id rerum corporis nobis reiciendis debitis, consequatur laboriosam suscipit, sed necessitatibus veniam ad autem! Dolores autem quibusdam adipisci esse voluptatibus!</h1>
+</body>
+</html>
