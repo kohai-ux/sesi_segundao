@@ -1,0 +1,34 @@
+div{
+	background: lightblue;
+}
+
+h1{
+	background: black;
+	color: white;
+}
+
+h3{
+	background: blue;
+	color: black;
+}
+
+h5{
+	background: black;
+	color: blue;
+}
+
+#fonte{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+	}
+
+div.escudo{
+		display: grid;
+    	place-items: center;
+}
+#direita{
+	float: right;
+}
+#aga{
+	display: grid;
+	place-items: center;
+}
