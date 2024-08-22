@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELETORES</title>
+    <style>
+       /* div {
+            background: red;
+        } */
+        
+        div.teste{
+            background: red;
+        }
+
+        .teste {
+            font-size: 20px;
+        }
+
+        .aaa{
+            background: green;
+        }
+
+        .bbb{
+            color: white;
+        }
+
+        li,span{
+            font-weight: bold;
+        }
+
+        div p{
+            color: yellow;
+        }
+        div p.ccc{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>Este é um elemento div</div>
+    <div>E temos aqui outro elemento div</div>
+    <span>Este é um texto dentro de um elemento span</span>
+
+    <div class="teste">
+        <p>Teste</p>
+    </div>
+
+    <div>
+        <p class="ccc">Teste interno</p>
+        <ul>
+            <li class="teste">Primeiro elemento de uma lista</li>
+            <li>Segundo elemento de uma lista</li>
+            <li>Terceiro elemento de uma lista</li>
+            <li>Quarto elemento de uma lista</li>
+            <li class="aaa bbb">Último elemento de uma lista</li>
+        </ul>
+    </div>
+
+    <p>Fim do exercício sobre seletores</p>
+</body>
+</html>
