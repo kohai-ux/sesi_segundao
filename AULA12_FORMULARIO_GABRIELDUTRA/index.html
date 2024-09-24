@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro formulário</title>
+    <style>
+        .form_container{
+            width: 60%;
+            margin: auto;
+        }
+
+        .form_group{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form_container">
+        <h3>Meu primeiro formulário</h3>
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+
+            <!-- campo para o nome -->
+            <div class="form_group">
+                <input type="text" name="campo_texto" id="" placeholder="Escreva seu nome" minlength="5" maxlength="30"
+                    size="50">
+            </div>
+            <!-- campo para o email -->
+            <div class="form_group">
+                <input type="email" name="campo_email" id="" placeholder="Digite seu email">
+            </div>
+
+            <!-- campo para senha -->
+            <div class="form_group">
+                <input type="password" name="campo_senha" id="" placeholder="Senha">
+            </div>
+            <!-- campo para número -->
+            <div class="form_group">
+                <input type="number" name="campo_numero" id="" min="0" max="3" step="1">
+            </div>
+            <!-- campo para url -->
+            <div class="form_group">
+                <input type="url" name="campo_url" id="">
+            </div>
+            <!-- campo para submit (submeter) -->
+            <div class="form_group">
+                <input type="submit" value="enviar">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
