@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo Lables</title>
+    <style>
+        * {
+            text-align: center;
+            background-color: darkgrey;
+        }
+
+        .cabecalho {
+            background-color: cornflowerblue;
+            padding: 50px;
+            margin-bottom: 35px;
+        }
+        h1{
+            background-color: cornflowerblue;
+        }
+
+        .form_group{
+            padding: 15px;
+            background-color: cornflowerblue;
+            margin: 10px 200px;
+            border-radius:30px ;
+        }
+        label{
+            background-color: cornflowerblue;
+        }
+      footer{
+        background-color: cornflowerblue;
+      }
+      h4{
+        background-color: cornflowerblue;
+        padding: 30px;
+        margin-top: 35px;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1>Formulários com labels</h1>
+    </div>
+    <div class="form_container">
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+            <div class="form_group">
+                <label for="">Nome:</label>
+                <input type="text" name="Campo_texto" id="" required>
+            </div>
+            <div class="form_group">
+                <label for="">Senha:</label>
+                <input type="password" name="campo_senha" id="" required>
+            </div>
+            <div class="form_group">
+                <input type="submit" value="enviar">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div>
+            <h4>Desenvolvido por &copy;Gabriel dutra &reg; 2024</h3>
+        </div>
+    </footer>
+
+</body>
+
+</html>
