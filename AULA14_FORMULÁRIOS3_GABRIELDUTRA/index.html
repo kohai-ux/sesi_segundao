@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e radio</title>
+    <style>
+        * {
+            text-align: center;
+            background-color: darkgreen;
+        }
+
+        .form_container {
+            width: 60%;
+            margin: auto;
+        }
+
+        .form_group {
+            margin-bottom: 10px;
+            padding: 20px;
+            border-radius: 30px;
+        }
+
+        label {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form_container">
+        <h3>Formulário com checkbox e radio</h3>
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+
+
+
+
+            <!-- CONTA -->
+            <div class="form_group">
+                <input type="text" name="campo_nome" id="" placeholder="Escreva seu nome">
+            </div>
+            <div class="form_group">
+                <input type="email" name="campo_email" id="" placeholder="Insira seu email">
+            </div>
+            <div class="form_group">
+                <input type="password" name="campo_senha" id="" placeholder="Insira sua senha">
+            </div>
+
+<hr>
+
+            <!-- RADIO 1 GENERO -->
+            <div class="form_group">
+                <label for="">
+                    <input type="radio" name="genero" id="" value="masculino">
+                    Masculino
+                </label>
+            </div>
+            <div class="form_group">
+                <label for="">
+                    <input type="radio" name="genero" id="" value="feminino">
+                    Feminino
+                </label>
+            </div>
+            <div class="form_group">
+                <label for="">
+                    <input type="radio" name="genero" id="" value="outro">
+                    Outro
+                </label>
+            </div>
+            <hr>
+            <!-- RADIO 2 SISTEMA OPERACIONAL -->
+            <div class="form_group">
+                <label for="">
+                    <input type="radio" name="sistema" id="" value="Windows">
+                    Windows
+                </label>
+            </div>
+            <div class="form_group">
+                <label for="">
+                    <input type="radio" name="sistema" id="" value="Linux">
+                    Linux
+                </label>
+            </div>
+            <div class="form_group">
+                <label for="">
+                    <input type="radio" name="sistema" id="" value="MacOS">
+                    MacOS
+                </label>
+            </div>
+            <hr>
+
+            <!-- CHECKBOX -->
+            <div class="form_group">
+                <label for="">
+                    <input type="checkbox" name="check_atualizar" id="" value="atualizar">
+                    Atualizar os dados automaticamente
+                </label>
+            </div>
+            <div class="form_group">
+                <label for="">
+                    <input type="checkbox" name="check_salvar" id="" value="salvar">
+                    Salvar as informações automaticamente
+                </label>
+            </div>
+            <!-- SUBMIT -->
+
+            <div class="form_group">
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
