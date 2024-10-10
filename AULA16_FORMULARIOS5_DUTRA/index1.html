@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist</title>
+    <!-- Estilo -->
+     <style>
+        *{
+            background-color: beige;
+            text-align: center;
+        }
+        .form_container {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .form_group {
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: black;
+            color: beige;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+     </style>
+</head>
+
+<body>
+    <!-- Formulário com datalist -->
+
+    <div class="form_container">
+        <h3>Formulário com Datalist</h3>
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+            <div class="form_group">
+                <label for="campo-opcoes">Indique a opção:</label>
+                <input type="text" name="campo_opcao" id="campo-opcoes" list="lista-dados">
+                <datalist id="lista-dados">
+                    <option value="Pagode">
+                    <option value="Pop">
+                    <option value="Rock">
+                    <option value="Sertanejo">
+                </datalist>
+            </div>
+            <div class="form_group">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

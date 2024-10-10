@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão para limpar</title>
+    <!-- Estilo -->
+    <style>
+        *{
+            background-color: beige;
+            text-align: center;
+        }
+        .form_container {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .form_group {
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: black;
+            color: beige;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Formulário -->
+
+    <div class="form_container">
+        <h3>Formulário com Limpar</h3>
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+            <div class="form_group">
+                <label for="campo-usuario">Usuário:</label>
+                <input type="text" name="campo_usuario" id="campo-usuario" required>
+            </div>
+
+            <div class="form_group">
+                <label for="campo-senha">Senha:</label>
+                <input type="password" name="campo_senha" id="campo-senha" required>
+            </div>
+
+            <div class="form_group">
+                <label>
+                    <input type="radio" name="opcao" id="" checked>
+                    Opção 1
+                </label>
+                <label>
+                    <input type="radio" name="opcao" id="">
+                    Opção 2
+                </label>
+                <label>
+                    <input type="radio" name="opcao" id="">
+                    Opção 3
+                </label>
+            </div>
+
+            <!-- Botão de limpar -->
+
+            <div class="form_group">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="limpar">
+            </div>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
